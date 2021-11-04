@@ -2,17 +2,22 @@ package com.example.catexplorer.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.navigation.fragment.NavHostFragment
+import com.example.catexplorer.R
 import com.example.catexplorer.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
     private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
-    // TODO: add navHostFragment
+    private val navHostFragment by lazy {
+        supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContentView(binding.root)
+
 
     }
 }

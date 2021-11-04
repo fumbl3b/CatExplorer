@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/catListFragment"
-        android:name="com.example.catexplorer.view.catListFragment"
+        android:name="com.example.catexplorer.view.CatListFragment"
         android:label="fragment_cat_list"
         tools:layout="@layout/fragment_cat_list" />
 

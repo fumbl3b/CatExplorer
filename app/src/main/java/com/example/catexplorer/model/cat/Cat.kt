@@ -9,7 +9,7 @@ data class Cat(
     val approved: Int,
     @Json(name = "breed_ids")
     val breedIds: String,
-    val breeds: List<Breed>,
+    val breeds: List<Breed>?,
     @Json(name = "created_at")
     val createdAt: String,
     val height: Int,

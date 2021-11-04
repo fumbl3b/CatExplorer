@@ -6,6 +6,6 @@ import androidx.lifecycle.ViewModel
 class CatListViewModel : ViewModel() {
     // TODO: Implement the ViewModel
 
-    private val _catState = MutableLiveData<List<Cat>>
+    // private val _catState = MutableLiveData<List<Cat>>
 
 }
